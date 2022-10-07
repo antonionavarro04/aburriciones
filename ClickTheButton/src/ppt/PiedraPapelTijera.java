@@ -22,7 +22,7 @@ public class PiedraPapelTijera {
         ventana.setResizable(true);
 
         // ? Icono
-        ImageIcon icono = new ImageIcon("src/ppt/icono.png");
+        ImageIcon icono = new ImageIcon("src/ppt/img/icono.png");
         ventana.setIconImage(icono.getImage());
 
         // ^ Creamos los botones de piedra papel y tijera
