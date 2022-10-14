@@ -1,6 +1,6 @@
 package timerformated;
 
 public class Version {
-    char release = 'a';
+    char release = 'b';
     float version = 1.0f;
 }

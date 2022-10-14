@@ -18,11 +18,21 @@ public class TimerFormated {
 
         // ! Mediante el While hacemos el Timer
         
-        while(segundos < 60){
-            System.out.println(segundos);
+        while (segundos < 60){
+            System.out.println(horas + ":" + minutos + ":" + segundos);
             segundos++;
+
+            if (segundos == 60){
+                segundos = 0;
+                minutos++;
+
+                if (minutos == 60){
+                    minutos = 0;
+                    horas++;
+                }
+            }
             
-            Thread.sleep(1000);
+            // Thread.sleep(100);
         }
         
     }
