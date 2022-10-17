@@ -1,7 +1,5 @@
 package timerformated;
 
-import java.sql.Time;
-
 public class TimerFormated {
     public static void main(String[] args) throws InterruptedException {
         // ^ Importamos la clase Version y la Imprimimos
@@ -17,9 +15,9 @@ public class TimerFormated {
         byte horas = 0;
 
         // ! Mediante el While hacemos el Timer
-        
+    
         while (segundos < 60){
-            System.out.println(horas + ":" + minutos + ":" + segundos);
+            System.out.print(" " + horas + ":" + minutos + ":" + segundos + "\r");
             segundos++;
 
             if (segundos == 60){
@@ -32,7 +30,8 @@ public class TimerFormated {
                 }
             }
             
-            // Thread.sleep(100);
+            Thread.sleep(1000);
+            // // System.out.println("\033[H\033[2J");
         }
         
     }
