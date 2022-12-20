@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "arrays.Main",
+            "projectName": "aburriciones_83be2ef0"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntMain",
+            "request": "launch",
+            "mainClass": "intmain.IntMain",
+            "projectName": "aburriciones_83be2ef0"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
